@@ -1,8 +1,8 @@
-﻿string[] MyString1 = new string[5] { "Vitaliy", "Anna", "Mary", "Dan", "Ma" };
-string[] MyString2 = new string[MyString1.Length];
+﻿string[] myString1 = new string[5] { "Vitaliy", "Anna", "Mary", "Dan", "Ma" };
+string[] myString2 = new string[myString1.Length];
 
-ArrayCutString(MyString1, MyString2, 3);
-PrintArray(MyString2);
+ArrayCutString(myString1, myString2, 3);
+PrintArray(myString2);
 
 
 void ArrayCutString(string[] array1, string[] array2, int cut)
